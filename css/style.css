@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'libre_baskervillebold';
+    src: url('../fonts/librebaskerville-bold-webfont.woff2') format('woff2'),
+         url('../fonts/librebaskerville-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_baskervilleitalic';
+    src: url('../fonts/librebaskerville-italic-webfont.woff2') format('woff2'),
+         url('../fonts/librebaskerville-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_baskervilleregular';
+    src: url('../fonts/librebaskerville-regular-webfont.woff2') format('woff2'),
+         url('../fonts/librebaskerville-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    --font-sans-serif:
+      -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+      helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    --font-serif:
+      "libre_baskervilleregular", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+      Droid Serif, Times, Source Serif Pro, serif;
+    --font-libre-bold:
+      "libre_baskervillebold", var(--font-serif);
+    --color-hero: hsl(200, 100%, 25%);
+    --color-one: hsl(200, 100%, 95%);;
+    --color-two: hsl(60, 100%, 94%);
+  }
+
+  html {
+    font-family: serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-libre-bold);
+  }
+
+  #logo {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  #tagline{
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .max-width-wrapper {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  hr {
+    color: gray;
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  #shop-pic {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .info {
+    margin-bottom: 1.5rem;
+  }
+
+  .info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .info p {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
